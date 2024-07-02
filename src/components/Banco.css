@@ -1,0 +1,38 @@
+/* src/components/Banco.css */
+.banco-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sidebar button {
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sidebar button:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
